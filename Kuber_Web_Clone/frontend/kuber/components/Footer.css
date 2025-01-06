@@ -1,0 +1,12 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 0; /* Custom padding for a smaller footer */
+}
+
+.footer a {
+  text-decoration: none;
+}

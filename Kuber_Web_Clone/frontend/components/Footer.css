@@ -1,0 +1,30 @@
+/* Ensure no overlap with content */
+body {
+  padding-bottom: 50px; /* Adjust according to footer height */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa; /* Lighter background to reduce attention */
+  color: #6c757d; /* Neutral text color */
+  text-align: center;
+  font-size: 0.9rem; /* Smaller font size */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+  padding: 10px 0; /* Reduced padding */
+}
+
+.footer a {
+  color: #007bff; /* Accent color for links */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 0;
+}
