@@ -1,5 +1,5 @@
 const mongoose=require ("mongoose")
-const URL="mongodb+srv://rusilvaru555:HAMIRBHAI&4421v@cluster0.djrhg.mongodb.net/auth?retryWrites=true&w=majority&appName=Cluster0"
+const URL="TAKE URI FROM MONGODB"
 async function db(){
   try{
   await mongoose.connect(URL)
